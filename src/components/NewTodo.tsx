@@ -18,6 +18,7 @@ const NewTodo: React.FC = () => {
 
     todosCtx.addTodo(enteredText);
 
+    // clear input field after submitting
     todoTextInputRef.current!.value = '';
   };
 
